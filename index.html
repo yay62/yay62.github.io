@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	*{
+		margin: 5px;
+		padding: 0;
+	}
+	#page{
+		margin : auto;
+		width: 1240px;
+	}
+	li{
+		text-align: center;
+		line-height: 40px;
+	}
+	.clear{
+		clear: both;
+	}
+	header{
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: -10px;
+		width: 1200px;
+		height: 100px;
+	}
+	nav{
+		margin-left: 20px;
+		width: 1200px;
+		height: 40px;
+		float: left;
+	}
+	iframe{
+		margin-bottom: 10px;
+		margin-left: 10px;
+		float: left;
+		width: 800px;
+		height: 500px;
+		object-fit: cover;
+	}
+	aside{
+		float: left;
+		margin-left: 80px;
+		margin-bottom: 10px;
+		width: 170px;
+		height: 500px;
+	}	
+	footer{
+		margin-left: 18px;
+		float: left;
+		width: 1200px;
+		height: 100px;
+		background-color: #cccccc;
+	}
+	#address{
+		float: left;
+	}
+	#customer{
+		float: left;
+	}
+	nav ul{
+		list-style-type: none;
+		float: left;
+		margin-left: 110px;
+	}
+	aside li{
+		line-height: 20px;
+		list-style-type: none;
+		margin-top: 50px;
+	}
+	.dropdown{
+		display: inline-block;
+		position: relative;
+	}
+	.dropdowncontents{
+		display: none;
+		position: absolute;
+		background-color: white;
+		color: black;
+		font-size: 16px;
+		opacity: 90%;
+		width: 150px;
+		height: 140px;
+	}
+	.dropdown:hover .dropdowncontents{
+		display: block;
+	}
+</style>
+</head>
+<body id="page">
+	<header>
+		<div id="logo"><a href="index.html"><img src="아연이네.png" width="150"></div>
+	</header>
+
+	<nav class="dropdown">
+		<ul> <img src="메뉴1.png" width="150">
+			<div class="dropdowncontents">
+				<li>브랜드 스토리</li>
+				<li>히스토리</li>
+				<li>공지사항</li>
+			</div>
+		</ul>
+		<ul> <img src="메뉴2.png" width="150">
+			<div class="dropdowncontents">
+				<li>빵</li>
+				<li>케이크</li>
+				<li>음료</li>
+			</div>
+		</ul>
+		<ul> <img src="메뉴3.png" width="150">
+			<div class="dropdowncontents">
+				<li>진행중인 이벤트</li>
+				<li>당첨자 발표</li>
+				<li>이달의 행사</li>
+			</div>
+		</ul>
+		<ul> <img src="메뉴4.png" width="150">
+			<div class="dropdowncontents">
+				<li>케이크 주문 제작</li>
+				<li>단체 주문</li>
+				<li></li>
+			</div>
+		</ul>
+	</nav>
+	<iframe src="index22.html" scrolling="NO" frameborder="0" name="bb"></iframe>
+	<aside>
+		<ul>
+			<li><img src="오시는길.png" width="140"></li>
+			<li><img src="고객센터.png" width="140"></li>
+		</ul>
+</aside>
+	<footer>
+		<div id="customer">고객센터 : 1234-1234</div>
+		<div id="address">대표 이사 : 윤아연 /
+		대표 이메일 : dkdus_01@naver.com</div>
+	</footer>
+</body>
+</html>
